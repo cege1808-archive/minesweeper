@@ -1,17 +1,24 @@
-Minesweeper
+# Minesweeper
 
-Javascript Game on Console
+_Javascript Game on Console_
 
-To play Minesweeper, we will create instances of MineSweeperGame in command line.
-For example:
+## Build the Project
+Run build to generate ES5 `npm run build`
+
+## Play Minesweeper
+Create instances of MineSweeperGame in command line.
+
 In the command line, navigate to the lib directory and run `node`
+
 Run `.load game.js` to load the contents of this file.
+
 Then create a Game instance and run commands like so:
+
+``` javascript
 let game = new Game(3, 3, 3);
 game.playMove(0, 1);
 game.playMove(1, 2);
+```
 To reset game `game.restart()`
-When done run `.exit`
 
-Build the Project
-`npm run build`
+To exit game `.exit`
