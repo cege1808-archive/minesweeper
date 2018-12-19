@@ -12,3 +12,6 @@ game.playMove(0, 1);
 game.playMove(1, 2);
 To reset game `game.restart()`
 When done run `.exit`
+
+Build the Project
+`npm run build`
